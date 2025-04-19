@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" style="display: grid; width: fit-content;">
+        <fieldset style="display: flex; flex-direction: column; width: 200px;">
+            <legend>Персональные данные</legend>
+
+            <label for="name">Имя</label>
+            <input type="text" name="name" placeholder="Введите имя" required>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Введите почту" required>
+            
+            <label for="password">Пароль</label>
+            <input type="password" name="password" placeholder="Введите пароль" required>
+        </fieldset>
+
+        <fieldset style="display: flex; flex-direction: column; width: fit-content; width: 200px;">
+            <legend>Пол</legend>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Мужчина</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Женщина</label>
+            </div>
+        </fieldset>
+
+           
+            
+
+
+        <fieldset style="display: flex; flex-direction: column; width: fit-content; width: 200px;">
+            
+            <legend>Любимые технологии</legend>
+            <div style="display: grid; gap: 10px;">
+                <label for="html">
+                    <input type="checkbox" id="html" name="technologies" value="html">
+                    HTML
+                </label>
+            
+                <label for="css">
+                    <input type="checkbox" id="css" name="technologies" value="css">
+                    CSS
+                </label>
+            
+                <label for="javascript">
+                    <input type="checkbox" id="javascript" name="technologies" value="javascript">
+                    JavaScript
+                </label>
+
+            </div>
+         </fieldset>
+        
+            
+            
+
+        <fieldset style="display: flex; flex-direction: column; width: fit-content; width: 200px;">
+            <legend>Комментарий</legend>
+            <textarea name="comments" placeholder="Введите комментарий" ></textarea>
+        </fieldset>
+        
+
+        <button type="submit">Отправить</button>
+
+        
+
+    </form>
+</body>
+</html>

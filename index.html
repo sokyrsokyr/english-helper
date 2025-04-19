@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENGLISH HELPER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body class="body-hide">
+    <header>
+        <span>
+            <div id="start">
+                <svg xmlns="http://www.w3.org/2000/svg" id="showHide" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true">
+                    <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+                </svg>
+            </div>
+        </span>
+        <div id="mainTitle"><h1>EXERCISES</h1></div>
+        <div></div>
+    </header>
+
+    <aside class="aside-hide" id="aside">
+    </aside>
+
+    <main>
+
+        <div class="buttonsContainer" id="sections">
+            <button class="turnButtons" id="turnSentences">Words</button>
+            <button class="turnButtons" id="turnIdioms">Idioms</button>
+            <button class="turnButtons" id="turnVerbs">Irregular verbs</button>
+        </div>
+            
+        </div>
+        <div class="hidden" id="sentences">
+            <h2>Составление предложений со словами</h2>
+            <div id="placeForSentence">
+                <textarea name="inputText" id="inputText"></textarea>
+            </div>
+                <button id="showWords">Введите количество слов</button>
+        </div>
+
+        <div class="hidden" id="idiom">
+            <h2>Составление предложений с фразеологизмом</h2>
+            <div id="placeForIdiom">
+                <textarea name="inputText" id="inputText2"></textarea>
+            </div>
+            <button id="showIdiom">Показать фразеологизм</button>
+        </div>
+
+        <div class="hidden" id="verbs">
+            <h2>Практика с неправильными глаголами</h2>
+
+            <button id="showVerb">Показать глагол</button>
+        </div>
+
+    </main>
+
+    <script src="irregular.js"></script>
+    <script src="listOfIdioms.js"></script>
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
